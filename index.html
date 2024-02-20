@@ -7,6 +7,7 @@
     <title>UsabilityHUB</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/Responsive.css">
 </head>
 <body>
     <div class="top-banner">
@@ -20,7 +21,7 @@
             <a href="#" class="company-logo">
                 <img src="./assets/asset 0.png" alt="Company logo">
             </a>
-            <div class="nav-links">
+            <div class="nav-links" id="nav-links">
                 <ul class="flex">
                     <li><a href="#" class="hover-links">Products</a></li>
                     <li><a href="#" class="hover-links">Customers</a></li>
@@ -30,6 +31,7 @@
                     <li><a href="#" class="hover-links button2">Sign up</a></li>
                 </ul>
             </div>
+            <a href="#" class="nav-toggle hover-links" id="nav-toggle"><i class="fa-solid fa-bars"></i></a>
 
         </div>
     </nav>
@@ -109,7 +111,7 @@
             <div class="features-card flex">
                 <img src="./assets/asset 14.svg" alt="">
                 <h3>Five second tests</h3>
-                <p>Test comprehensibility by measuring first impressions.</p>
+                <p>Test comprehensible by measuring first impressions.</p>
                 <a href="#" class="button1">Learn more<i class="fa-solid fa-arrow-right"></i></a>
 
             </div>
@@ -119,19 +121,130 @@
        </div>
 </section>
 
-<section class="big-features-section"></section>
-<section class="big-features-section"></section>
-<section class="big-features-section"></section>
-
-<section class="examples-section">
+<section class="big-features-section">
+    <div class="container flex big-features-container">
+        <div class="feature-img">
+            <img src="./assets/asset 15.png" alt="asset image">
+        </div>
+        <div class="feature-desc flex">
+            <h4>Effortless Validation for</h4>
+            <h3>Design Professionals</h3>
+            <p>Test Interfaces, interaction flows, iconograpraphy and more, to help you create intuitive and delightful experiences for your users</p>
+        </div>
+    </div>
 </section>
 
-<section class="cta-section"></section>
+<section class="big-features-section">
+    <div class="container flex big-features-container" id="second-big-feature">
+        <div class="feature-img">
+            <img src="./assets/asset 16.png" alt="asset image">
+        </div>
+        <div class="feature-desc flex">
+            <h4>Effortless Validation for</h4>
+            <h3>Design Professionals</h3>
+            <p>Test Interfaces, interaction flows, iconograpraphy and more, to help you create intuitive and delightful experiences for your users</p>
+        </div>
+    </div>
+</section>
 
-<footer></footer>
+<section class="big-features-section">
+    <div class="container flex big-features-container">
+        <div class="feature-img">
+            <img src="./assets/asset 17.png" alt="asset image">
+        </div>
+        <div class="feature-desc flex">
+            <h4>Effortless Validation for</h4>
+            <h3>Design Professionals</h3>
+            <p>Test Interfaces, interaction flows, iconograpraphy and more, to help you create intuitive and delightful experiences for your users</p>
+        </div>
+    </div>
+</section>
 
-<div class="sub-footer"></div>
 
+<section class="examples-section">
+    <div class="container">
+        <div class="Examples-header flex">
+            <h2 class="examples-heading-text">One Platform, Endless Possibilities </h2>
+            <a href="#" class="button1">See more Examples<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="examples-area flex">
+        <a href="#" class="examples-card">
+            <h3 class="card-text">Can users complete a task in my software interface?</h3>
+        </a>
 
+        <a href="#" class="examples-card">
+            <h3 class="card-text">Can users find important pages on my website?</h3>
+        </a>
+
+        <a href="#" class="examples-card">
+            <h3 class="card-text">Is my website's intended audience clear</h3>
+        </a>
+
+        <a href="#" class="examples-card">
+            <h3 class="card-text">Do visitors understand what a page is about?</h3>
+        </a>
+    </div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="container flex cta-section-container">
+        <h2>Start Testing today</h2>
+        <p class="para-cta-container">Take the Guesswork out of design decisions</p>
+        <a href="#" class="button2">Get Started</a>
+    </div>
+</section>
+<footer>
+    <div class="container flex footer-container">
+        <a href="#" class="company-logo">
+            <img src="./assets/asset 0.png" alt="company-logo">
+        </a>
+        <div class="link-column flex">
+            <h4>Products</h4>
+            <a href="" class="hover-links">Overview</a>
+            <a href="" class="hover-links">Pricing</a>
+            <a href="" class="hover-links">UsabilityHUB</a>
+            <a href="" class="hover-links">Customers Page</a>
+            <a href="" class="hover-links">Status Page</a>
+        </div>
+
+        <div class="link-column flex">
+            <h4>Methodology</h4>
+            <a href="" class="hover-links">Overview</a>
+            <a href="" class="hover-links">Pricing</a>
+            <a href="" class="hover-links">UsabilityHUB</a>
+            <a href="" class="hover-links">Customers Page</a>
+            <a href="" class="hover-links">Status Page</a>
+        </div>
+
+        <div class="link-column flex">
+            <h4>Resources</h4>
+            <a href="" class="hover-links">Overview</a>
+            <a href="" class="hover-links">Pricing</a>
+            <a href="" class="hover-links">UsabilityHUB</a>
+            <a href="" class="hover-links">Customers Page</a>
+            <a href="" class="hover-links">Status Page</a>
+        </div>
+    </div>
+</footer>
+
+<div class="sub-footer">
+    <div class="container flex subfooter-container">
+        <a href="" class="hover-links">Privacy & policy</a>
+        <a href="" class="hover-links">Terms & Condition</a>
+        <a href="" class="hover-links">Security Information</a>
+        <a href="" class="hover-links"><i class="fa-brands fa-facebook"></i></a>
+        <a href="" class="hover-links"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+</div>
+
+<script>
+    const toggleButton = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+</script>
 </body>
 </html>
